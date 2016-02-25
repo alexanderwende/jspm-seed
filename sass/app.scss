@@ -1,0 +1,28 @@
+@import "variables";
+@import "reset";
+@import "widget";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300italic,300);
+
+html {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    color: #444;
+}
+
+main {
+    padding: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+input {
+    vertical-align: middle;
+}
+
+.subtle {
+    font-size: 0.75em;
+    font-weight: 300;
+    font-style: italic;
+}

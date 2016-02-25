@@ -1,0 +1,15 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "system"
+    },
+    "exclude": [
+        "jspm_packages",
+        "node_modules",
+        "dist"
+    ],
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Betterbuild</title>
+    <!-- build:css -->
+    <link rel="stylesheet" href="css/app.css">
+    <!-- endbuild -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+    <main>
+        <h1>Headline</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at auctor sem. Pellentesque in ornare tortor. Vivamus gravida mauris sit amet lacus dictum tincidunt. Vivamus non aliquet tellus, vitae venenatis nisi. Nunc sapien lorem, malesuada id lectus iaculis, interdum condimentum odio. Vestibulum porta hendrerit ipsum at sagittis. Etiam lobortis condimentum justo. Nulla facilisi. Aliquam in suscipit sapien, ac posuere lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sodales odio sit amet laoreet ornare. Aenean dapibus risus diam, quis fermentum nunc placerat ac. Aliquam erat volutpat. Curabitur vehicula, nisl sit amet mattis luctus, arcu lorem lacinia leo, in faucibus lectus tellus quis tortor. Vivamus consequat est vitae metus congue ultrices. Sed ultricies porttitor nisi, a accumsan mauris dignissim et.
+        </p>
+        <p>
+            Nam sodales condimentum dui, eget imperdiet nibh ullamcorper ac. Praesent metus eros, malesuada sit amet rhoncus vel, sollicitudin quis eros. Maecenas nec interdum dolor. Nullam maximus interdum neque, auctor ullamcorper nulla aliquam nec. Integer et urna placerat, pulvinar eros fermentum, porttitor dui. Duis tincidunt non justo nec condimentum. Aenean cursus elit a metus rhoncus, ut vulputate diam ultricies. Aenean eget turpis felis. Sed nec cursus turpis, id rhoncus tortor. Donec elementum ullamcorper metus vel ornare.
+        </p>
+        <div class="widget module-a"></div>
+        <div class="widget module-b"></div>
+        <div class="widget module-c"></div>
+    </main>
+    <!-- build:js -->
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <!-- endbuild -->
+    <script>
+        System.import('js/app').then(function (module) {
+
+            var app = module.default;
+
+            app.start('App loaded with dynamic message...');
+        });
+    </script>
+</body>
+</html>

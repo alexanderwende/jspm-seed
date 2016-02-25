@@ -1,0 +1,15 @@
+# OSX specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# project specific
+jspm_packages
+node_modules
+css
+dist
